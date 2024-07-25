@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg
+}
+.badge{
+
+@apply bg-secondary-100 text-secondary-200 font-bold text-xs uppercase rounded-full  absolute top-0 p-2 m-2
+
+}
+.btn{
+@apply  rounded-full px-3 py-2 uppercase text-xs font-bold cursor-pointer tracking-wider
+
+}
